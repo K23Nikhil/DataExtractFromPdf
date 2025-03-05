@@ -2,6 +2,7 @@
 import PyPDF2
 import pandas as pd
 import re
+import json
 
 #Creating PDF object and save in variable 
 pdfFileObj = open(r"creditcard.pdf",'rb')
