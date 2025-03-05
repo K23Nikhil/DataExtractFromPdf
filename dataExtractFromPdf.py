@@ -3,7 +3,7 @@ import PyPDF2
 import pandas as pd
 import re
 
-#Creating PDF object
+#Creating PDF object and save in variable 
 pdfFileObj = open(r"creditcard.pdf",'rb')
 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
