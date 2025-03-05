@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         # List your project's dependencies here.
-        'requests','json', 'panda'
+        're','json', 'pandas', 'PyPDF2'
     ],
 )
